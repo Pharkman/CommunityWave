@@ -92,12 +92,10 @@ function handlePost(e) {
 
     form.reset();
     postInputText.focus();
-
     postDataArray.unshift(postData);
-
     localStorage.setItem("postedData", JSON.stringify(postDataArray));
-
     fetchData();
+    closeModalOverlay()
     displayPostOnInterface();
 }
 
