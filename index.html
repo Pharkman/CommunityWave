@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CommunityWave</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="main-container">
+    <div class="sidebar">
+      <div class="logo">
+
+      </div>
+
+      <div class="side-menu-container">
+        <div class="side-menu-mini-container">
+          <div class="side-menu active">
+            <i class="iconsax" icon-name="home-1"></i>
+            <a href="">Dashboard</a>
+          </div>
+          <div class="side-menu">
+            <i class="iconsax" icon-name="group"></i>
+            <a href="">Community</a>
+          </div>
+          <div class="side-menu">
+            <i class="iconsax" icon-name="ranking-1"></i>
+            <a href="">Inspirations</a>
+          </div>
+          <div class="side-menu">
+            <i class="iconsax" icon-name="message-dash-2"></i>
+            <a href="">Chat</a>
+          </div>
+          <div class="side-menu">
+            <i class="iconsax" icon-name="setting-1"></i>
+            <a href="">Settings</a>
+          </div>
+        </div>
+        
+
+        <div class="shortcut-container">
+          <div class="short-heading">
+            <p>SHORTCUTS</p>
+          </div>
+          <div class="side-menu">
+            <i class="iconsax" icon-name="scan-2"></i>
+            <a href="">Scan</a>
+          </div>
+          <div class="side-menu">
+            <i class="iconsax" icon-name="brush-1"></i>
+            <a href="">Draw</a>
+          </div>
+
+          <div class="side-menu">
+            <i class="iconsax" icon-name="add-square"></i>
+            <a href="">Add shortcut</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main-dashboard">
+      <div class="welcome-message">
+          <h1>Hello Pharkmanlee</h1>
+          <p>What's new with you? would you you like to share something with community?🤗</p>
+      </div>
+      <div class="main-dashboard-body">
+        <div class="post-container" id="post-container">
+          <div class="create-post-container">
+            <div class="creat-post-text">
+              <h1>Create Post</h1>
+            </div>
+
+            <div class="create-post-input">
+              <input type="text" name="post" id="post-text" placeholder="what's up, Pharkmanlee?">
+            </div>
+
+            <div class="image-video-and-create-post-btn">
+              <div class="image-and-video">
+
+                <div class="image-input">
+                  <div class="image-display-icon">
+                    <i class="iconsax" icon-name="picture"></i>
+                    <p>Image</p>
+                  </div>
+
+                  <input type="file" name="image" id="image-input">
+                </div>
+
+                <div class="image-input">
+
+                  <div class="image-display-icon">
+                    <i class="iconsax" icon-name="video"></i>
+                    <p>Video</p>
+                  </div>
+
+                  <input type="file" name="image" id="video-input">
+                </div>
+              </div>
+
+              <div class="create-post-btn">
+                <button><i class="iconsax" icon-name="send-2"></i> Post</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-post-container" id="main-post-container">
+            <!-- <div class="user-posts" id="user-posts">
+            <div class="user-profile-and-moreIcon">
+              <div class="user-profile">
+                <div class="profile-picture">
+                  <img src="/images/profile2.jpg" alt="">
+                </div>
+
+                <div class="profile-name-and-timePosted">
+                  <div class="profile-name">
+                    <p>Pharkmanlee</p>
+                  </div>
+                  <div class="time-of-post">
+
+                    <div class="time-posted">
+                      <p>5 mins ago</p>
+                    </div>
+
+                    <div class="time-and-who-to-divider"></div>
+
+                    <div class="who-to-see">
+                      <p>Friends</p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="more-icon">
+                <i class='bx bx-dots-horizontal-rounded'></i>
+              </div>
+            </div>
+
+            <div class="post-content">
+
+              <div class="post-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem vitae ex quia fuga accusantium pariatur.</p>
+              </div>
+              <div class="post-image">
+                <img src="/images/profile3.jpg" alt="">
+              </div>
+            </div>
+            
+            <div class="reactions">
+              <div class="likes">
+                <i class='bx bx-heart'></i>
+                <p>100</p>
+              </div>
+
+              <div class="comments">
+                <i class='bx bx-message-dots' ></i>
+                <p>100</p>
+              </div>
+
+              <div class="shares">
+                <i class='bx bx-share-alt'></i>
+                <p>100</p>
+              </div>
+            </div>
+          </div> -->
+          </div>
+
+
+        </div>
+
+        <div class="event-container">
+          <div class="event-btns">
+            <button class="active">Events</button>
+            <button>News</button>
+            <button>Soon</button>
+          </div>
+
+          <div class="upcoming-event-container">
+            <div class="upcoming-heading">
+              <p>July 27</p>
+
+              <div class="next-and-pre-btn">
+                <i class="iconsax" icon-name="chevron-left"></i>
+                <i class="iconsax" icon-name="chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="days">
+              <div class="day active">
+                <p class="dayDay">Mon</p>
+                <p class="dayDate">24</p>
+              </div>
+
+              <div class="day">
+                <p class="dayDay">Mon</p>
+                <p class="dayDate">24</p>
+              </div>
+
+              <div class="day">
+                <p class="dayDay">Mon</p>
+                <p class="dayDate">24</p>
+              </div>
+
+              <div class="day">
+                <p class="dayDay">Mon</p>
+                <p class="dayDate">24</p>
+              </div>
+
+              <div class="day">
+                <p class="dayDay">Mon</p>
+                <p class="dayDate">24</p>
+              </div>
+
+              <div class="day">
+                <p class="dayDay">Mon</p>
+                <p class="dayDate">24</p>
+              </div>
+
+              <div class="day">
+                <p class="dayDay">Mon</p>
+                <p class="dayDate">24</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="upcoming-schedule">
+            <div class="schedule">
+              <div class="day-date">
+                <p>Tue</p>
+                <h1>10</h1>
+              </div>
+              <div class="divider"></div>
+              <div class="schedule-desc">
+                <p>Google Interview</p>
+                <div class="time">
+                  <p>00 - 00</p>
+                  <p>Zoom Meeting</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="schedule">
+              <div class="day-date">
+                <p>Tue</p>
+                <h1>10</h1>
+              </div>
+              <div class="divider"></div>
+              <div class="schedule-desc">
+                <p>Google Interview</p>
+                <div class="time">
+                  <p>00 - 00</p>
+                  <p>Zoom Meeting</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="schedule">
+              <div class="day-date">
+                <p>Tue</p>
+                <h1>10</h1>
+              </div>
+              <div class="divider"></div>
+              <div class="schedule-desc">
+                <p>Google Interview</p>
+                <div class="time">
+                  <p>00 - 00</p>
+                  <p>Zoom Meeting</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="view-all-schedule-btn">
+            <button>View all schedule <i class="iconsax" icon-name="chevron-down"></i></button>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="post-overlay" id="post-overlay">
+    <div class="create-post-overlay">
+      <div class="overlay-heading">
+        <h1>Create Post</h1>
+      </div>
+
+      <div class="close-modal" id="close-modal">
+        <i class="iconsax" icon-name="x"></i>
+      </div>
+      
+
+      <form id="form" class="form-container">
+        <div class="user-profile">
+          <div class="profile-picture">
+                <img src="images/profile2.jpg" alt="">
+          </div>
+
+          <div class="profile-name-and-timePosted">
+            <div class="profile-name">
+              <p>Pharkmanlee</p>
+            </div>
+            
+            <select name="who-to-see-post" id="who-to-see-post" class="select-option">
+              <option value="Friends">Friends</option>
+              <option value="public">Public</option>
+              <option value="only-me">Only Me</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="create-post-inputs">
+          <div class="post-input-container">
+            <textarea type="text" id="post-input" placeholder="what's up, Pharkmanlee?"></textarea>
+          </div>
+
+          <div class="select-image-container" id="select-image-container">
+            <input type="file" id="select-image">
+
+            <div class="image-icon">
+              <i class="iconsax" icon-name="picture"></i>
+            </div>
+            <div class="select-image-text">
+              <p>Add Image/Video</p>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="send-post-button">
+          <button type="submit" id="post">Post</button>
+        </div>
+      
+      </form>
+      
+    </div>
+  </div>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
